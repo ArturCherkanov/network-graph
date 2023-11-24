@@ -96,7 +96,7 @@ const useGraph = (data: GraphType) => {
       circle: true,
       directed: true,
       padding: 50,
-      spacingFactor: 3,
+      spacingFactor: 5,
       animate: true,
       animationDuration: 1000,
       avoidOverlap: true,
@@ -105,8 +105,6 @@ const useGraph = (data: GraphType) => {
   }
 
   return {
-    createGraphs,
-    normalizeGraph,
     graphs
   }
 }
